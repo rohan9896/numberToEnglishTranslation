@@ -81,8 +81,8 @@ body{
     padding: 2rem;
 }
 
-.container .container-center > textarea {
-    width: 300px;
+.container .container-center > input {
+    width: 100px;
     height: 30px;
     font-size: xx-large;
 }
@@ -98,6 +98,12 @@ body{
 
 .para {
     margin-right: 1rem;
+}
+
+.output-heading {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
 }
 
 .btn-container {
@@ -116,7 +122,6 @@ body{
 }
 
 
-
-#output-text {
+.change-bg {
     background-color: white;
 }
