@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+
+:root {
+    --bg-color: #fbf7f0;
+    --primary-color: #555555;
+    --secondary-color: #cdc9c3;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background-color: var(--bg-color);
+    font-family: 'Source Code Pro', monospace;
+}
+
+.nav {
+    background-color: var(--primary-color);
+    padding: 1rem 1rem;
+}
+
+
+.nav .p-center{
+    max-width: 590px;
+    margin: auto;
+    font-size: xx-large;
+    background-color: var(--secondary-color);
+    padding: 0.5rem 0.5rem;
+    border-style: dashed;
+    font-weight: bold;
+}
+
+.favicon-size {
+    width: 2rem;
+    height: 2rem;
+}
+
+.header{
+    margin: 1rem 1rem;
+    padding: 0.5rem 0.5rem;
+}
+
+.header .header-center {
+    /* margin: auto;
+    max-width: 600px; */
+    display: flex;
+    justify-content: center;
+}
+
+.header-img {
+    width: 400px;
+    height: 400px;
+}
+
+.list-not-bullet {
+    list-style: none;
+}
+
+.list-not-bullet .inline-items {
+    display: inline;
+}
+
+
+.container {
+    margin: 1rem 1rem;
+    padding: 0.1rem 0.1rem;
+}
+
+
+.container .container-center {
+    /* margin: auto;
+    max-width: 300px; */
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-style: double;
+    padding: 2rem;
+}
+
+.container .container-center > textarea {
+    width: 300px;
+    height: 30px;
+    font-size: xx-large;
+}
+
+.container .container-center .para {
+    display: flex;
+    justify-content: center;
+}
+
+.larger-text-size {
+    font-size: x-large;
+}
+
+.para {
+    margin-right: 1rem;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 1rem;
+}
+
+.btn-container #btn {
+    padding: 1rem 2rem;
+    background-color: rgb(255, 153, 0);
+    font-weight: bold;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: large;
+}
+
+
+
+#output-text {
+    background-color: white;
+}
