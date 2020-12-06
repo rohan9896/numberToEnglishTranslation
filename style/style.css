@@ -125,3 +125,15 @@ body{
 .change-bg {
     background-color: white;
 }
+
+.footer-div {
+    padding: 0.5rem 0.2rem;
+    background-color: var(--primary-color);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-div > p {
+    font-size: larger;
+}
